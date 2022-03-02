@@ -77,3 +77,21 @@ button {
     font-size: 20px;
     font-family: "Digital", sans-serif;
 }
+
+.display {
+    margin-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 20px;
+    background-color: black;
+    color: grey;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+a {
+    color: grey;
+}
