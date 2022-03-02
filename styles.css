@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Digital";
+    src: url(/assets/font/digital-7-font/Digital7Mono-B1g5.ttf) format("woff");
+}
+
+body {
+    background-image: url(/assets/img/Abes-oddysee-bg.jpg);
+    background-position: top center;
+    background-attachment: scroll;
+}
+
+.header {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+marquee {
+    margin: 20px 100px;
+    height: 60px;
+    border: #2F3234 solid 10px;
+    border-radius: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+.screen {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: #2F3234 solid 10px;
+    border-radius: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+p,
+marquee {
+    font-family: "Digital", sans-serif;
+    color: #0B8B2A;
+    font-size: 50px;
+    text-align: right;
+}
+
+span {
+    color: red;
+}
+
+.buttons {
+    display: flex;
+    margin: 0 auto;
+    width: 400px;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 40px; 
+    border: #2F3234 solid 10px;
+    border-radius: 20px;
+    background-color: black;
+    text-align: center;
+    color: grey;
+    font-size: 20px;
+    font-family: "Digital", sans-serif;
+}
