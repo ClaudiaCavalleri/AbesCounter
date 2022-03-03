@@ -86,7 +86,11 @@ button {
     .message {
         margin: 30px 5px ;
     }
-    .screen {
+    .screen,
+    .buttons {
         width: 96%;
+    }
+    p {
+        font-size: 30px;
     }
 }
