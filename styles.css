@@ -88,9 +88,10 @@ button {
     }
     .screen,
     .buttons {
-        width: 96%;
+        width: 300px;
     }
-    p {
+    p,
+    marquee {
         font-size: 30px;
     }
 }
