@@ -85,6 +85,9 @@ button {
 @media only screen and (max-width: 500px) {
     .message {
         margin: 30px 5px ;
+    }
+
+    marquee {
         height: 40px;
     }
     .screen,
