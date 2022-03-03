@@ -92,6 +92,9 @@ button {
     }
     p,
     marquee {
-        font-size: 30px;
+        font-size: 40px;
+    }
+    button {
+        padding: 10px;
     }
 }
