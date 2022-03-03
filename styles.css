@@ -86,9 +86,8 @@ button {
     .message {
         margin: 30px 5px ;
     }
-
     marquee {
-        height: 45px;
+        height: 50px;
     }
     .screen,
     .buttons {
