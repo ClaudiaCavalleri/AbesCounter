@@ -112,4 +112,19 @@ button {
     .message {
         margin: 100px 50px;
     }
+    marquee {
+        height: 60px;
+        border-radius: 20px;
+    }
+    .screen,
+    .buttons {
+        width: 400px;
+    }
+    p,
+    marquee {
+        font-size: 50px;
+    }
+    button {
+        padding: 10px 40px;
+    }
 }
