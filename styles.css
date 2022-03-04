@@ -19,27 +19,28 @@ body {
     display: block;
     margin: 0 auto;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .message {
-    margin: 50px;
+    margin: 30px 5px;
     text-align: center;
 }
 
 marquee {
     display: block;
     margin: 0 auto;
-    height: 60px;
+    height: 50px;
     width: 90%;
     border: #2F3234 solid 10px;
-    border-radius: 20px;
+    border-radius: 5px;
     background-color: black; 
+
 }
 
 .screen {
     display: block;
-    width: 400px;
+    width: 300px;
     margin: 0 auto;
     padding: 20px;
     border: #2F3234 solid 10px;
@@ -52,8 +53,9 @@ p,
 marquee {
     font-family: "Digital", sans-serif;
     color: #0B8B2A;
-    font-size: 50px;
+    font-size: 35px;
     text-align: right;
+    padding: 5px;
 }
 
 span {
@@ -63,12 +65,12 @@ span {
 .buttons {
     display: flex;
     margin: 0 auto;
-    width: 400px;
+    width: 300px;
     justify-content: space-between;
 }
 
 button {
-    padding: 10px 40px;  
+    padding: 10px 20px;  
     border: #2F3234 solid 10px;
     border-radius: 20px;
     background-color: black;
@@ -82,25 +84,32 @@ button {
     margin-bottom: 50px;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (min-width: 501px) and (max-width: 1299px) {
     .message {
-        margin: 30px 5px;
-        display: flex;
-        align-items: center;
+        margin: 50px; 
     }
     marquee {
-        height: 50px;
-        border-radius: 5px;
+        height: 60px;
+        border-radius: 20px;
     }
     .screen,
     .buttons {
-        width: 300px;
+        width: 400px;
     }
     p,
     marquee {
-        font-size: 35px;
+        font-size: 50px;
     }
     button {
-        padding: 10px 20px;
+        padding: 10px 40px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .header {
+        padding-top: 50px;
+    }
+    .message {
+        margin: 100px 50px;
     }
 }
