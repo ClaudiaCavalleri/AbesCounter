@@ -38,8 +38,10 @@
 </ul>
 <p>At the end, it was very satisfying to see everything is working!</p>
 <hr>
+<a href="https://abes-counter.netlify.app" target="_blank">Project</a>
+<hr>
 <h3><a name="about">About me</a></h3>
 <ul>
-  <li><a href="https://www.linkedin.com/in/claudiacavalleri/" target="_blank">Linkedin</a>
-  <li><a href="https://claudiacavalleri.github.io" target="_blank">Website</a>
+   <li><a href="https://www.linkedin.com/in/claudiacavalleri/" target="_blank">Linkedin</a></li>
+   <li><a href="https://claudiacavalleri.github.io" target="_blank">Website</a></li>
 </ul>
