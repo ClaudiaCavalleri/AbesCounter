@@ -2,7 +2,8 @@
 
 <h4>JavaScript Basics final project for Start2impact</h4>
 <p>A simple counter of Mudokons inside of the Rupture Farms</p>
-
+<a href="https://abes-counter.netlify.app" target="_blank">Let's have a look!</a>
+<hr>
 <h2><strong>Table of contents</strong></h2>
 <p><a href="#description">Description</a></p>
 <p><a href="#ref">References</a></p>
@@ -37,8 +38,6 @@
                                     the difficult thing was to understand where to put it.</li>
 </ul>
 <p>At the end, it was very satisfying to see everything is working!</p>
-<hr>
-<a href="https://abes-counter.netlify.app" target="_blank">Project</a>
 <hr>
 <h3><a name="about">About me</a></h3>
 <ul>
