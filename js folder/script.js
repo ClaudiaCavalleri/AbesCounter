@@ -1,63 +1,63 @@
-let contatore = 00;
-let impiegati = 99;
+let counter = 00;
+let employees = 99;
 
-let numEvasi = document.getElementById("numEvasi");
-let numImpiegati = document.getElementById("numImpiegati");
+let numEscapees = document.getElementById("numEscapees");
+let numEmployees = document.getElementById("numEmployees");
 
 
-function incrementa(){
-    if (contatore < 99){
-        contatore++;
-        if (contatore < 10){
-            contatore = "0" + contatore;
+function increase(){
+    if (counter < 99){
+        counter++;
+        if (counter < 10){
+            counter = "0" + counter;
         };
-        numEvasi.innerHTML = contatore;  
+        numEscapees.innerHTML = counter;  
     }
 }
 
-function decrementa(){
-    if (contatore > 0){
-        contatore--;
-        if (contatore < 10){
-            contatore = "0" + contatore;
+function decrease(){
+    if (counter > 0){
+        counter--;
+        if (counter < 10){
+            counter = "0" + counter;
         };
-        numEvasi.innerHTML = contatore;
+        numEscapees.innerHTML = counter;
     }
 } 
 
-function sottraiImpiegati(){
-    if (impiegati > 0){
-        impiegati--;
-        if (impiegati < 10){
-            impiegati = "0" + impiegati;
+function decreaseEmpolyees(){
+    if (employees > 0){
+        employees--;
+        if (employees < 10){
+            employees = "0" + employees;
         };
-        numImpiegati.innerHTML = impiegati;
+        numEmployees.innerHTML = employees;
     }
 }
 
-function aggiungiImpiegati(){
-    if (impiegati < 99){
-        impiegati++;
-        if (impiegati < 10){
-            impiegati = "0" + impiegati;
+function increaseEmployees(){
+    if (employees < 99){
+        employees++;
+        if (employees < 10){
+            employees = "0" + employees;
         };
-        numImpiegati.innerHTML = impiegati;
+        numEmployees.innerHTML = employees;
     }
 }
 
 function counterReset() {
-    contatore = 0;
-    if (contatore < 10){
-        contatore = "0" + contatore;
+    counter = 0;
+    if (counter < 10){
+        counter = "0" + counter;
     };
-    numEvasi.innerHTML = contatore;
-    impiegati = 99;
-    numImpiegati.innerHTML = impiegati;
+    numEscapees.innerHTML = counter;
+    employees = 99;
+    numEmployees.innerHTML = employees;
 }
 
 
-increm.addEventListener('click',incrementa);
-increm.addEventListener("click",sottraiImpiegati);
-decrem.addEventListener('click',decrementa);
-decrem.addEventListener('click',aggiungiImpiegati);
+inc.addEventListener('click', increase);
+inc.addEventListener("click", decreaseEmpolyees);
+dec.addEventListener('click', decrease);
+dec.addEventListener('click', increaseEmployees);
 reset.addEventListener("click", counterReset);
