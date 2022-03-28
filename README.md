@@ -42,8 +42,8 @@
 <p>At the end, it was very satisfying to see everything is working!</p>
 <hr>
 <h3><a name="coach">The Coach says...</a></h3>
-<p>It was very annoying for me to read the answer from the coach: he says there are some problrms that has to be fixed.</p>
-<p>First of all, I switched italian english; then I unified a lot of rows of js codes beacuse there where some functions that were redundant.</p>
+<p>It was very annoying for me to read the answer from the coach, because I hoped everything was fine: he says no, there are some problems that has to be fixed.</p>
+<p>First of all, I switched italian to english; then I unified a lot of rows of js codes beacuse there where some functions that were redundant.</p>
 <p>So, here we are with the version 2.0!</p>
 <hr>
 <h3><a name="about">About me</a></h3>
