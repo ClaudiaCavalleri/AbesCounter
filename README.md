@@ -24,7 +24,8 @@
 
 <hr>
 <h3><a name="ref">References</a></h3>
-<img src="https://user-images.githubusercontent.com/94831498/156770236-3b840205-1758-493a-83ed-8030c28d9895.png">
+
+<img src="https://user-images.githubusercontent.com/94831498/160344237-721da859-5989-45d3-bc28-6f9b75e50f46.png">
 
 <hr>
 <h3><a name="prob">Problems and solutions</a></h3>
