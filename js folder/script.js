@@ -4,44 +4,31 @@ let employees = 99;
 let numEscapees = document.getElementById("numEscapees");
 let numEmployees = document.getElementById("numEmployees");
 
-
 function increase(){
-    if (counter < 99){
+    if (counter < 99 && employees > 00){
         counter++;
+        employees--;
         if (counter < 10){
-            counter = "0" + counter;
-        };
-        numEscapees.innerHTML = counter;  
+            counter = "0" + counter;    
+        } else if (employees < 10){
+            employees = "0" + employees;
+        }
+        numEscapees.innerHTML = counter; 
+        numEmployees.innerHTML = employees; 
     }
 }
 
 function decrease(){
-    if (counter > 0){
+    if (counter > 00 && employees < 99 ){
         counter--;
-        if (counter < 10){
-            counter = "0" + counter;
-        };
-        numEscapees.innerHTML = counter;
-    }
-} 
-
-function decreaseEmpolyees(){
-    if (employees > 0){
-        employees--;
-        if (employees < 10){
-            employees = "0" + employees;
-        };
-        numEmployees.innerHTML = employees;
-    }
-}
-
-function increaseEmployees(){
-    if (employees < 99){
         employees++;
-        if (employees < 10){
+        if (counter < 10){
+            counter = "0" + counter;    
+        } else if (employees < 10){
             employees = "0" + employees;
-        };
-        numEmployees.innerHTML = employees;
+        }
+        numEscapees.innerHTML = counter; 
+        numEmployees.innerHTML = employees; 
     }
 }
 
@@ -57,7 +44,5 @@ function counterReset() {
 
 
 inc.addEventListener('click', increase);
-inc.addEventListener("click", decreaseEmpolyees);
 dec.addEventListener('click', decrease);
-dec.addEventListener('click', increaseEmployees);
 reset.addEventListener("click", counterReset);
