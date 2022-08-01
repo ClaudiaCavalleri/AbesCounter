@@ -1,8 +1,22 @@
-let counter = 00;
-let employees = 99;
+let dec = document.getElementById("dec");
+let reset = document.getElementById("reset");
+let inc = document.getElementById("inc");
+
+dec.innerHTML = "-";
+reset.innerHTML = "RESET";
+inc.innerHTML = "+";
+
 
 let numEscapees = document.getElementById("numEscapees");
 let numEmployees = document.getElementById("numEmployees");
+
+numEscapees.innerHTML ="00";
+numEmployees.innerHTML = "99";
+
+let counter = 00;
+let employees = 99;
+
+//  A function that increase the counter
 
 function increase(){
     if (counter < 99 && employees > 00){
@@ -18,6 +32,8 @@ function increase(){
     }
 }
 
+//  A function that decrease the counter
+
 function decrease(){
     if (counter > 00 && employees < 99 ){
         counter--;
@@ -31,6 +47,8 @@ function decrease(){
         numEmployees.innerHTML = employees; 
     }
 }
+
+// A function that resets the counter
 
 function counterReset() {
     counter = 0;
